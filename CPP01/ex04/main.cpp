@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 	std::ifstream	infile(filename.c_str());
 	if (!infile.is_open())
 	{
-		std::cerr << "Error: cannot open"  << filename << std::endl;
+		std::cerr << "Error: cannot open "  << filename << std::endl;
 		return (1);
 	}
 
